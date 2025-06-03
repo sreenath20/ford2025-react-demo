@@ -8,6 +8,7 @@ function UserForm(){
     const [isActive,setIsactive] = useState(true);
     const [pincode,setPincode] = useState(0);
     const [userObj,serUserObj] = useState({});
+
     const loginHandle = ()=>{
         console.log(name +":"+password);
     }
@@ -26,8 +27,6 @@ function UserForm(){
             your name is : {name}.
         </>
     );
-
-
 }
 
 export default UserForm;
